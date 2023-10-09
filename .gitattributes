@@ -1,0 +1,19 @@
+# UE file types
+*.uasset filter=lfs diff=lfs merge=lfs
+*.umap filter=lfs diff=lfs merge=lfs
+
+# Raw Content types
+*.fbx filter=lfs diff=lfs merge=lfs
+*.3ds filter=lfs diff=lfs merge=lfs
+*.psd filter=lfs diff=lfs merge=lfs
+*.png filter=lfs diff=lfs merge=lfs
+*.mp3 filter=lfs diff=lfs merge=lfs
+*.wav filter=lfs diff=lfs merge=lfs
+*.xcf filter=lfs diff=lfs merge=lfs
+*.jpg filter=lfs diff=lfs merge=lfs
+
+#Files that may need to be distrobuted with the project should be added to this folder so they can be added to the build process.
+Content/XtrnlContent/** filter=lfs diff=lfs merge=lfs
+
+#Any files that are not specific to the project build or distrobution. Example original source files imported into the project.
+RawContent/** filter=lfs diff=lfs merge=lfs
